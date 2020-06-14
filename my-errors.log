@@ -1,0 +1,22 @@
+[04-May-2020 16:11:16 UTC] PHP Warning:  unlink(test.xlsx): Resource temporarily unavailable in D:\wamp64\www\projects\Coffee shop 2\src\Classes\PHPExcel\Writer\Excel2007.php on line 229
+[04-May-2020 16:11:16 UTC] PHP Stack trace:
+[04-May-2020 16:11:16 UTC] PHP   1. {main}() D:\wamp64\www\projects\Coffee shop 2\src\index.php:0
+[04-May-2020 16:11:16 UTC] PHP   2. include() D:\wamp64\www\projects\Coffee shop 2\src\index.php:208
+[04-May-2020 16:11:16 UTC] PHP   3. Rezervare->update() D:\wamp64\www\projects\Coffee shop 2\src\send_message.php:69
+[04-May-2020 16:11:16 UTC] PHP   4. PHPExcel_Writer_Excel2007->save() D:\wamp64\www\projects\Coffee shop 2\src\config.php:99
+[04-May-2020 16:11:16 UTC] PHP   5. unlink() D:\wamp64\www\projects\Coffee shop 2\src\Classes\PHPExcel\Writer\Excel2007.php:229
+[04-May-2020 16:11:16 UTC] PHP Warning:  ZipArchive::close(): Renaming temporary file failed: Permission denied in D:\wamp64\www\projects\Coffee shop 2\src\Classes\PHPExcel\Writer\Excel2007.php on line 388
+[04-May-2020 16:11:16 UTC] PHP Stack trace:
+[04-May-2020 16:11:16 UTC] PHP   1. {main}() D:\wamp64\www\projects\Coffee shop 2\src\index.php:0
+[04-May-2020 16:11:16 UTC] PHP   2. include() D:\wamp64\www\projects\Coffee shop 2\src\index.php:208
+[04-May-2020 16:11:16 UTC] PHP   3. Rezervare->update() D:\wamp64\www\projects\Coffee shop 2\src\send_message.php:69
+[04-May-2020 16:11:16 UTC] PHP   4. PHPExcel_Writer_Excel2007->save() D:\wamp64\www\projects\Coffee shop 2\src\config.php:99
+[04-May-2020 16:11:16 UTC] PHP   5. ZipArchive->close() D:\wamp64\www\projects\Coffee shop 2\src\Classes\PHPExcel\Writer\Excel2007.php:388
+[04-May-2020 16:11:16 UTC] PHP Fatal error:  Uncaught PHPExcel_Writer_Exception: Could not close zip file test.xlsx. in D:\wamp64\www\projects\Coffee shop 2\src\Classes\PHPExcel\Writer\Excel2007.php:389
+Stack trace:
+#0 D:\wamp64\www\projects\Coffee shop 2\src\config.php(99): PHPExcel_Writer_Excel2007->save('test.xlsx')
+#1 D:\wamp64\www\projects\Coffee shop 2\src\send_message.php(69): Rezervare->update()
+#2 D:\wamp64\www\projects\Coffee shop 2\src\index.php(208): include('D:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in D:\wamp64\www\projects\Coffee shop 2\src\Classes\PHPExcel\Writer\Excel2007.php on line 389
+Not in the working hours

@@ -1,0 +1,8 @@
+//TODO
+//refresh problem, to delete post values
+
+//popup error, when file is open. Unable to save the message
+
+//disable previous dates
+
+//cusmotize the alert messages to be more atractive

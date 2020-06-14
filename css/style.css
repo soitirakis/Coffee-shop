@@ -1,0 +1,124 @@
+html, body {
+  font-family: Inconsolata;
+  height: 100%;
+  margin: 0; }
+  html nav, body nav {
+    background-color: black;
+    font-family: Inconsolata; }
+    html nav button, body nav button {
+      background-color: lightgrey; }
+    html nav ul li:hover, body nav ul li:hover {
+      background-color: lightgrey;
+      color: black; }
+    html nav ul li a, body nav ul li a {
+      color: white;
+      font-size: 15px; }
+      html nav ul li a:hover, body nav ul li a:hover {
+        color: black; }
+  html .bg, body .bg {
+    background-image: url(../img/coffehouseback.jfif);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+    html .bg .text-l, body .bg .text-l {
+      position: absolute;
+      background-color: black;
+      color: white;
+      font-family: Inconsolata;
+      bottom: 10px;
+      left: 20px;
+      padding: 0 10px; }
+    html .bg .text-c, body .bg .text-c {
+      position: absolute;
+      color: white;
+      font-family: Inconsolata;
+      font-size: 50px;
+      font-weight: bold;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    html .bg .text-r, body .bg .text-r {
+      position: absolute;
+      color: white;
+      font-family: Inconsolata;
+      bottom: 10px;
+      right: 20px; }
+  html .about, body .about {
+    font-family: Inconsolata;
+    max-width: 700px;
+    margin: auto; }
+    html .about .h3, body .about .h3 {
+      background-color: black;
+      color: white;
+      margin: auto;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      font-size: 25px;
+      letter-spacing: 3px; }
+    html .about p, body .about p {
+      font-size: 20px; }
+      html .about p mark, body .about p mark {
+        background-color: black;
+        color: white; }
+    html .about .citat, body .about .citat {
+      background-color: lightgrey;
+      border-left: 10px solid grey; }
+    html .about img, body .about img {
+      margin-top: 5%;
+      opacity: 0.5; }
+    html .about .tab, body .about .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      padding: 8px; }
+      html .about .tab a, body .about .tab a {
+        float: left;
+        color: black;
+        padding: 5px 10px;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center; }
+      html .about .tab .active, body .about .tab .active {
+        color: white;
+        background-color: darkgrey; }
+      html .about .tab .tabcontent, body .about .tab .tabcontent {
+        display: none; }
+    html .about .card-text, body .about .card-text {
+      font-size: 20px;
+      color: grey;
+      margin-bottom: 50px; }
+  html #map, body #map {
+    max-widht: 700px;
+    height: 400px;
+    margin-bottom: 15px; }
+  html .error, body .error {
+    width: 100%;
+    padding: 10px;
+    font-size: 80%;
+    color: red;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    html .error .active, body .error .active {
+      padding: 0.3em; }
+  html .btn, body .btn {
+    color: white;
+    background-color: black;
+    margin-bottom: 50px; }
+    html .btn:hover, body .btn:hover {
+      color: black;
+      background-color: grey; }
+  html footer, body footer {
+    width: 100%;
+    height: 150px;
+    background-color: lightgrey;
+    position: relative; }
+    html footer .description, body footer .description {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
